@@ -61,6 +61,13 @@
 			<artifactId>spring-web</artifactId>
 		</dependency>
 
+		<!-- Databinding (for tests) -->
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
+			<scope>provided</scope>
+		</dependency>
+
 		
 		<dependency>
 			<groupId>org.springframework</groupId>
